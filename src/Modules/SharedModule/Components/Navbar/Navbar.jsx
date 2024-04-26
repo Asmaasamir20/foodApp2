@@ -8,8 +8,8 @@ export default function Navbar({ loginData }) {
   return (
     <>
       {/* Navbar <span>{userEmail}</span> */}
-      <nav className="navbar navbar-expand-lg bgNav mx-3 mt-3 rounded-4">
-        <div className="container mx-3">
+      <nav className="navbar navbar-expand-lg bgNav mx-4 mt-3 rounded-4">
+        <div className="container">
           <button
             className="navbar-toggler"
             type="button"

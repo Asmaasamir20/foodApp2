@@ -130,3 +130,8 @@ a {
 .bgNav {
   background-color: rgba(217, 217, 217, 1) !important;
 }
+.Header{
+background-image: url(./assets/images/header-bg-svg.svg);
+background-size: cover;
+background-repeat: no-repeat;
+}
