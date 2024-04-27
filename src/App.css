@@ -130,8 +130,60 @@ a {
 .bgNav {
   background-color: rgba(217, 217, 217, 1) !important;
 }
-.Header{
-background-image: url(./assets/images/header-bg-svg.svg);
-background-size: cover;
-background-repeat: no-repeat;
+.Header .container-fluid {
+  background-image: url(./assets/images/header-bg-svg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.css-16d95v9 > .ps-menu-button:hover {
+  background-color: rgba(0, 146, 77, 0.1) !important;
+}
+/* navvvvvvvv */
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  /* align-items:flex-end !important; */
+  justify-content:end;
+}
+
+
+
+
+
+
+
+
+/*---- small --- */
+@media all and (max-width:575px){
+  .Header{
+    margin-right: 25px !important;
+  }
+}
+@media all and (min-width:576px) and (max-width:767px){
+  .allnav{
+    margin-top: -25px!important;
+  }
+  .Header{
+    margin-right: 25px !important;
+  }
+}
+
+
+/*---- mediam --- */
+@media all and (min-width:768px) and (max-width:991px){
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row !important;
+    margin-top: 20px;
+}
+.allnav{
+  margin-top: -15px!important;
+}
+}
+
+
+/*---- large --- */
+@media all and (min-width:992px) and (max-width:1199px){}
+
+
+/*---- x large --- */
+@media all and (min-width:1200px){}

@@ -173,7 +173,7 @@ export default function ResetPassword() {
                   </div>
                   <button
                     type="submit"
-                    className="btn text-center w-100 main-colorbg text-white mt-4 py-2">
+                    className="btn btn-success text-center w-100  text-white mt-4 py-2">
                     {btnLoading ? (
                       "Reset Password"
                     ) : (

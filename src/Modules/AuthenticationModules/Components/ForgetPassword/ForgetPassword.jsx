@@ -81,7 +81,7 @@ export default function ForgetPassword() {
                   
                   <button
                     type="submit"
-                    className="btn mt-5 text-center w-100 main-colorbg text-white mt-4 py-2">
+                    className="btn btn-success mt-5 text-center w-100  text-white mt-4 py-2">
                     {btnLoading ? (
                       "submit"
                     ) : (

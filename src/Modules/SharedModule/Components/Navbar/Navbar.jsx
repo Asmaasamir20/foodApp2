@@ -20,11 +20,13 @@ export default function Navbar({ loginData }) {
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+          <div
+            className="allnav collapse navbar-collapse mt-2"
+            id="navbarSupportedContent">
             <form className="d-flex  w-75 " role="search">
               <div className=" position-relative w-100  bginputNav ">
                 <span className="position-absolute" id="basic-addonl">
-                <i className="fa-solid fa-magnifying-glass"></i>
+                  <i className="fa-solid fa-magnifying-glass"></i>
                 </span>
                 <input
                   className="form-control me-2 rounded-5"
@@ -36,7 +38,10 @@ export default function Navbar({ loginData }) {
             </form>
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0  px-4">
               <li className="nav-item ">
-                <Link className="nav-link active pt-0" aria-current="page" to="#">
+                <Link
+                  className="nav-link active pt-0"
+                  aria-current="page"
+                  to="#">
                   <img src={logoNav} alt="w-100 pt-0" />
                 </Link>
               </li>
